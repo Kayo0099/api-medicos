@@ -1,0 +1,46 @@
+# ==== Arquivos do Java ====
+*.class
+*.jar
+*.war
+*.ear
+
+# ==== Logs ====
+*.log
+
+# ==== Pastas do build ====
+/build/
+/target/
+
+# ==== IDEs ====
+# IntelliJ
+/.idea/
+/*.iml
+/out/
+/*.iws
+
+# Eclipse
+/.project
+/.classpath
+/.settings/
+
+# VSCode
+.vscode/
+
+# ==== Dependências locais ====
+/.gradle/
+/mvnw
+/mvnw.cmd
+
+# ==== Sistema Operacional ====
+# Mac
+.DS_Store
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==== Arquivos temporários do Spring Boot ====
+/spring-boot-devtools.properties
+
+# ==== Testes e cobertura ====
+/coverage/
